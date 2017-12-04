@@ -42,7 +42,7 @@ public class BlueCornerOpMode extends LinearCustomOpMode {
 
         }
         else {
-            MovementLib.forward(-3, .2, this);
+            MovementLib.forward(-3.5, .2, this);
             MovementLib.raiseCServo(this);
             MovementLib.forward(-21, .2, this);
         }
